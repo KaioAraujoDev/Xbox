@@ -13,6 +13,7 @@ const estilo = StyleSheet.create({
     containerInfo:{
         marginBottom:20,
         alignItems:'center',
+        width:275
     },
     images:{
         width:275,
@@ -27,8 +28,20 @@ const estilo = StyleSheet.create({
         marginBottom:10,
     },
     descricaoMain:{
-        color:'white',
+        color:'rgba(228,228,228,1)',
         textAlign:'justify',
+    },
+    tituloImage:{
+        color:'white',
+        fontSize:18,
+        fontWeight:'bold',
+        paddingStart:10,
+    },
+    descricaoInfo:{
+        color:'rgba(228,228,228,1)',
+        textAlign:'justify',
+        marginTop:10,
+        fontSize:12
     }
 })
 

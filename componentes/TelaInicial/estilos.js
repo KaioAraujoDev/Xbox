@@ -9,8 +9,8 @@ const estilo = StyleSheet.create({
     },
     imageLogo:{
         borderRadius:50,
-        width:100,
-        height:100,
+        width:75,
+        height:75,
     },
     imageButton:{
         width:100,
@@ -23,7 +23,7 @@ const estilo = StyleSheet.create({
     },
     descricaoTitle:{
         fontSize:16,
-        color:'white',
+        color:'rgba(228,228,228,1)',
         textAlign:'justify',
         marginBottom:25,
     },
@@ -37,7 +37,7 @@ const estilo = StyleSheet.create({
         width:300,
     },
     cardTitle:{
-        color:'white',
+        color:'rgba(228,228,228,1)',
         fontSize:15,
         fontWeight:'bold',
     }

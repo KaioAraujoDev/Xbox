@@ -22,27 +22,27 @@ export default function TelaJogos() {
                         source={Jogo1}
                         style={estilo.images}
                     >
-                        <Text>Forza Horizon 5</Text>
+                        <Text style={estilo.tituloImage}>Forza Horizon 5</Text>
                     </ImageBackground>
-                    <Text>Forza Horizon 5 é um jogo de corrida. É o quinto jogo da série Forza Horizon e o décimo segundo título principal da franquia Forza. O jogo se passa em uma representação ficcional do México. </Text>
+                    <Text style={estilo.descricaoInfo}>Forza Horizon 5 é um jogo de corrida. É o quinto jogo da série Forza Horizon e o décimo segundo título principal da franquia Forza. O jogo se passa em uma representação ficcional do México. </Text>
                 </View>
                 <View style={estilo.containerInfo}>
                     <ImageBackground
                         source={Jogo2}
                         style={estilo.images}
                     >
-                        <Text>Ciberpunk 2077</Text>
+                        <Text  style={estilo.tituloImage}>Ciberpunk 2077</Text>
                     </ImageBackground>
-                    <Text>Cyberpunk 2077 é um jogo eletrônico de RPG de ação desenvolvido e publicado pela CD Projekt.</Text>
+                    <Text style={estilo.descricaoInfo}> Cyberpunk 2077 é um jogo eletrônico de RPG de ação desenvolvido e publicado pela CD Projekt.</Text>
                 </View>
                 <View style={estilo.containerInfo}>
                     <ImageBackground
                         source={Jogo3}
                         style={estilo.images}
                     >
-                        <Text>Halo4</Text>
+                        <Text  style={estilo.tituloImage}>Halo4</Text>
                     </ImageBackground>
-                    <Text>Halo 5: Guardians é um videojogo de tiro em primeira pessoa, parte da franquia Halo e sequência de Halo 4.</Text>
+                    <Text style={estilo.descricaoInfo}>Halo 5: Guardians é um videojogo de tiro em primeira pessoa, parte da franquia Halo e sequência de Halo 4.</Text>
                 </View>
 
             </View>
